@@ -1,10 +1,17 @@
 import React from 'react';
+import Common from './Common';
+import about from '../src/img/about.jpg';
 function About() {
     return (
-      <div className="App">
-         <h1 className='text-center'>welcome to About</h1>
-      </div>
-    );
+      <Common 
+      name='Welcome To About Page' 
+      dest='/contact'
+      imgsrc={about}
+      visit='/contact'
+      btnname='Contact Us'
+
+      />    
+      );
   }
   
   export default About;
