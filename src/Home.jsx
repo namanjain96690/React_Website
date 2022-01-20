@@ -1,15 +1,15 @@
 import React from 'react';
-import Common from './Common';
-import prof from '../src/img/profile.JPG';
+import Profile from './Profile';
+import Foot from './Foot';
+import './App.css';
 function Home() {
     return (
-        <Common 
-        name=' Grow Your business with ' 
-        dest='/service'
-        imgsrc={prof}
-        visit='/service'
-        btnname='Get Started'
-        /> 
+        <>
+        <div className="home-contaier">
+        <Profile />
+        <Foot />
+        </div>
+        </>
         );
   }
   

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 function Contact() {
     
  const [data, setData]=useState(
@@ -21,8 +22,12 @@ const inputEvent=(event)=>{
 
   const formSubmit=(event) =>{
   event.preventDefault();
-  alert(`hello ${data.fullname} contact: ${data.phone}
-  mail is : ${data.email} and your message ${data.message}`);
+  emailjs.sendForm('service_fqj481s', 'template_nmf35bm', event.target, 'user_7BMGWO1Z2fUMmIw931QR0')
+  .then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
   setData(
     {
       fullname:"",
@@ -35,7 +40,7 @@ const inputEvent=(event)=>{
 
   return (
       <>
-      <div className="mb-5">
+      <div className="my-5">
         <div className="text-center">
           <h1>Contact Us</h1>
         </div>
@@ -69,7 +74,7 @@ const inputEvent=(event)=>{
    class="form-control" 
    id="exampleFormControlInput1"
    name='email'
-   value={data.mail}
+   value={data.email}
    onChange={inputEvent}
     placeholder="name@example.com" />
 </div>
@@ -84,7 +89,7 @@ const inputEvent=(event)=>{
    ></textarea>
 </div>
 <div class="col-12">
-    <button class="btn btn-outline-primary" type="submit">Submit form</button>
+    <button class="btn con-btn" type="submit">Submit form</button>
   </div>
 </form>
       </div>
