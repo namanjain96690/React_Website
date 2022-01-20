@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/React_Website/static/css/main.05e63730.css",
-    "main.js": "/React_Website/static/js/main.f44b46d7.js",
-    "static/media/profile.JPG": "/React_Website/static/media/profile.96a5f8ad79a9df24d4dd.JPG",
+    "main.css": "/React_Website/static/css/main.8a3b4608.css",
+    "main.js": "/React_Website/static/js/main.11fb6236.js",
     "static/media/card.jpg": "/React_Website/static/media/card.93a5fb07853599ad6cfd.jpg",
     "static/media/about.jpg": "/React_Website/static/media/about.e646ee4558ab3acfe5d4.jpg",
+    "static/media/Resume.pdf": "/React_Website/static/media/Resume.15cc5ffcfed7ec9a27e1.pdf",
+    "static/media/profile.jpg": "/React_Website/static/media/profile.56a61d126dd64e024a46.jpg",
+    "static/media/bg.jpg": "/React_Website/static/media/bg.d580cd375921d13ae60d.jpg",
     "index.html": "/React_Website/index.html",
-    "main.05e63730.css.map": "/React_Website/static/css/main.05e63730.css.map",
-    "main.f44b46d7.js.map": "/React_Website/static/js/main.f44b46d7.js.map"
+    "main.8a3b4608.css.map": "/React_Website/static/css/main.8a3b4608.css.map",
+    "main.11fb6236.js.map": "/React_Website/static/js/main.11fb6236.js.map"
   },
   "entrypoints": [
-    "static/css/main.05e63730.css",
-    "static/js/main.f44b46d7.js"
+    "static/css/main.8a3b4608.css",
+    "static/js/main.11fb6236.js"
   ]
 }
