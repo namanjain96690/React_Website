@@ -42,7 +42,7 @@ const inputEvent=(event)=>{
       <>
       <div className="my-5">
         <div className="text-center">
-          <h1>Contact Us</h1>
+          <h1>Contact Me</h1>
         </div>
         <div className="container-fluid mt-5">
         <div className="row">

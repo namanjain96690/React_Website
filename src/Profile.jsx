@@ -13,16 +13,16 @@ function Profile(){
                <a href="#">
                <FaFacebookSquare />
                </a>
-               <a href="#">
+               <a href="https://www.instagram.com/naman_jain__21/">
                    <FaInstagramSquare />
                </a>
-               <a href="#">
+               <a href="https://twitter.com/21Njain">
                    <FaTwitterSquare />
                </a>
-               <a href="#">
+               <a href="https://www.linkedin.com/in/namanjain96690/">
                    <FaGithubSquare />
                </a>
-               <a href="#">
+               <a href="https://www.linkedin.com/in/namanjain96690/">
                <FaLinkedin/>
                </a>
            </div>
