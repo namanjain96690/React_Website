@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/React_Website/static/css/main.8a3b4608.css",
-    "main.js": "/React_Website/static/js/main.58814792.js",
-    "static/media/card.jpg": "/React_Website/static/media/card.93a5fb07853599ad6cfd.jpg",
+    "main.js": "/React_Website/static/js/main.b4151ff2.js",
     "static/media/about.jpg": "/React_Website/static/media/about.e646ee4558ab3acfe5d4.jpg",
     "static/media/Resume.pdf": "/React_Website/static/media/Resume.15cc5ffcfed7ec9a27e1.pdf",
     "static/media/profile.jpg": "/React_Website/static/media/profile.56a61d126dd64e024a46.jpg",
+    "static/media/home_solutions.jpg": "/React_Website/static/media/home_solutions.cda184316a1fe4202fd5.jpg",
+    "static/media/image_gallery.jpg": "/React_Website/static/media/image_gallery.da11697d468fff1f8458.jpg",
+    "static/media/thapar_comms.jpg": "/React_Website/static/media/thapar_comms.8631f28a61481ffce6b0.jpg",
+    "static/media/blog_website.jpg": "/React_Website/static/media/blog_website.9fcfebe5eb84062f0c91.jpg",
     "static/media/bg.jpg": "/React_Website/static/media/bg.d580cd375921d13ae60d.jpg",
+    "static/media/calculator.jpg": "/React_Website/static/media/calculator.40bddd30728765e4f89d.jpg",
+    "static/media/rgb_guesser.jpg": "/React_Website/static/media/rgb_guesser.8cf43eb7b3b6ed3d4fc5.jpg",
     "index.html": "/React_Website/index.html",
     "main.8a3b4608.css.map": "/React_Website/static/css/main.8a3b4608.css.map",
-    "main.58814792.js.map": "/React_Website/static/js/main.58814792.js.map"
+    "main.b4151ff2.js.map": "/React_Website/static/js/main.b4151ff2.js.map"
   },
   "entrypoints": [
     "static/css/main.8a3b4608.css",
-    "static/js/main.58814792.js"
+    "static/js/main.b4151ff2.js"
   ]
 }
