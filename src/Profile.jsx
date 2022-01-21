@@ -19,7 +19,7 @@ function Profile(){
                <a href="https://twitter.com/21Njain">
                    <FaTwitterSquare />
                </a>
-               <a href="https://www.linkedin.com/in/namanjain96690/">
+               <a href="https://github.com/namanjain96690">
                    <FaGithubSquare />
                </a>
                <a href="https://www.linkedin.com/in/namanjain96690/">
