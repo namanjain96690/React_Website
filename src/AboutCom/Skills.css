@@ -1,0 +1,25 @@
+.tags_main a{
+    font-size: 1.5rem;
+    line-height: 170%;
+    font-weight: lighter;
+    background-color: rgb(39,39,58);
+    transition: 0.3s;
+    text-decoration: none;
+}
+.tags_main a:hover{
+    background-color: var(--btn-color);
+    transition: 0.3s;
+}
+.right_sub__div{
+    padding: 2rem;
+    background-color: #fff;
+}
+.right_div__post{
+    width: 100%;
+    text-align: center;
+}
+.tags_main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2rem,10rem));
+    grid-gap: 0.5rem;
+}

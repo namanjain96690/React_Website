@@ -1,16 +1,18 @@
 import React from 'react';
-function ACard(){
-return(
+import './AboutCom/Skills.css';
+// import 'bootstrap/dist/css/bootstrap.bundle.min.css';
+import img from './aboutimg/edu.jpg';
+function ACard(props){
+    return(
     <>
 <div className="col-md-8 col-lg-6 col-10 mx-auto mb-3">
 <div className="carde">
 <div className="imgBox">
-<img src="img.jpg" />
+<img src={props.imgsrc} />
+<h1 className='text-center mt-4 text-capitalize'>{props.title}</h1>
 </div>
 <div className="content">
-<h2>Smiling World</h2>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga aspernatur consequuntur soluta illo eum sit amet accusamus perferendis veniam esse consectetur iste magni, neque, sequi nesciunt rerum voluptas possimus. Aspernatur.
-Quo, esse cupiditate repellendus aliquam sit fugiat minus, veritatis dolor repellat adipisci perspiciatis hic ea officia, ipsam excepturi voluptate voluptatem. Assumenda earum rem obcaecati soluta perferendis doloremque, esse magnam aut.</p>
+{props.content}
 </div>
 </div>
 </div>

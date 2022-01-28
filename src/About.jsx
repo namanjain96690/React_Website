@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css'; 
 import ACard from './ACard';
+import Adata from './Adata';
 function About() {
     return (
     <>
@@ -12,8 +13,16 @@ function About() {
         <div className="row">
         <div className=" col-12 col-sm-10 col-lg-8 mx-auto">
               <div className="row gy-5 gx-5 d-flex justify-content-center">
-            <ACard />
-            <ACard />
+            {Adata.map((val)=>{
+              return (
+              <ACard key={val.id}
+                     imgsrc={val.imgsrc}
+                     title={val.title}
+                     content={val.content}
+              />
+              );
+            })}
+
       </div>
       </div>
       </div>
