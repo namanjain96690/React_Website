@@ -20,6 +20,86 @@
 }
 .tags_main{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(2rem,10rem));
+    grid-template-columns: repeat(auto-fill, minmax(1rem,10rem));
     grid-gap: 0.5rem;
+}
+
+@media screen and (max-width:1270px)  {
+    .tags_main a{
+        font-size: 1.19rem !important;
+    }  
+    .tags_main{
+          grid-template-columns: repeat(auto-fill, minmax(1rem,9rem));
+      }
+      .right_sub__div{
+          padding: 0;
+      }
+  }
+  @media screen and (max-width:1200px)  {
+    .tags_main{
+        grid-template-columns: repeat(auto-fill, minmax(1rem,8.5rem));
+    }
+}
+
+@media screen and (max-width:999px)  {
+  .tags_main a{
+      font-size: 1.3rem !important;
+  }
+    .tags_main{
+        grid-template-columns: repeat(auto-fill, minmax(1rem,8rem));
+    }
+}
+@media screen and (max-width:830px)  {
+    .tags_main a{
+        font-size: 1.2rem !important;
+    }
+      .tags_main{
+          grid-template-columns: repeat(auto-fill, minmax(1rem,7.1rem));
+      }
+      .right_sub__div{
+          padding: 1rem;
+      }
+  }
+@media screen and (max-width:750px)  {
+    .tags_main a{
+        font-size: 1rem !important;
+    }
+    .tags_main{
+        grid-template-columns: repeat(auto-fill, minmax(1rem,9rem));
+    }
+    .right_sub__div{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width:657px){
+    .tags_main{
+        grid-template-columns: repeat(auto-fill, minmax(1rem,7.4rem));
+    }
+}
+@media screen and (max-width:580px)  {
+    .tags_main a{
+        font-size: 1rem !important;
+    }
+    .tags_main{
+        grid-template-columns: repeat(auto-fill, minmax(1rem,7.3rem));
+    }
+    .right_sub__div{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width:500px)  {
+    .tags_main a{
+        font-size: 1rem !important;
+    }
+    .tags_main{
+        grid-template-columns: repeat(auto-fill, minmax(1rem,6.5rem));
+    }
+    .right_sub__div{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width:480px){
+    .right_sub__div{
+        padding: 0;
+    }
 }

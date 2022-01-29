@@ -6,7 +6,7 @@ function Skills(){
         <div className=" right_div__post">
                   <div className="right_sub__div tags_main">
                      <a  className=" badge shadow text-capitalize">HTML</a>
-                     <a className=" badge shadow text-capitalize">CSS</a>
+                     <a className="  badge shadow text-capitalize">CSS</a>
                       <a className=" badge shadow text-capitalize">Java Script</a>
                       <a className=" badge shadow text-capitalize">Bootstrap 5</a>
                       <a className=" badge shadow text-capitalize">React</a>

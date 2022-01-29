@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className="container-fluid mt-5 about">
         <div className="row">
-        <div className=" col-12 col-sm-10 col-lg-8 mx-auto">
+        <div className=" col-sm-10 col-lg-10 mx-auto">
               <div className="row gy-5 gx-5 d-flex justify-content-center">
             {Adata.map((val)=>{
               return (

@@ -1,7 +1,5 @@
 import React from 'react';
 import './AboutCom/Skills.css';
-// import 'bootstrap/dist/css/bootstrap.bundle.min.css';
-import img from './aboutimg/edu.jpg';
 function ACard(props){
     return(
     <>
