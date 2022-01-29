@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_Website/static/css/main.4b77b66d.css",
-    "main.js": "/React_Website/static/js/main.5a12c919.js",
+    "main.css": "/React_Website/static/css/main.c22690c2.css",
+    "main.js": "/React_Website/static/js/main.b06da813.js",
     "static/media/hobbies.jpg": "/React_Website/static/media/hobbies.67957e665d4e38cc48a7.jpg",
     "static/media/achivement.jpg": "/React_Website/static/media/achivement.e0d66f7d5422641442fb.jpg",
     "static/media/edu.jpg": "/React_Website/static/media/edu.e757b840c63f45a123d4.jpg",
@@ -16,11 +16,11 @@
     "static/media/calculator.jpg": "/React_Website/static/media/calculator.40bddd30728765e4f89d.jpg",
     "static/media/rgb_guesser.jpg": "/React_Website/static/media/rgb_guesser.8cf43eb7b3b6ed3d4fc5.jpg",
     "index.html": "/React_Website/index.html",
-    "main.4b77b66d.css.map": "/React_Website/static/css/main.4b77b66d.css.map",
-    "main.5a12c919.js.map": "/React_Website/static/js/main.5a12c919.js.map"
+    "main.c22690c2.css.map": "/React_Website/static/css/main.c22690c2.css.map",
+    "main.b06da813.js.map": "/React_Website/static/js/main.b06da813.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b77b66d.css",
-    "static/js/main.5a12c919.js"
+    "static/css/main.c22690c2.css",
+    "static/js/main.b06da813.js"
   ]
 }
